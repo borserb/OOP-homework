@@ -1,4 +1,4 @@
-package com.gmail.borserb;
+package com.gmail.Cat;
 
 public class Main {
 
@@ -9,14 +9,15 @@ public class Main {
 
 		System.out.println(cate1.toString());
 		System.out.println(cate2.toString());
-		
+
 		cate1.renameCat(cate1, "Puh");
 		System.out.println(cate1.toString());
 		cate1.catAge();
 		cate2.catAge();
 		System.out.println("Cate 1 age = " + cate1.age);
 		System.out.println("Cate 2 age = " + cate2.age);
-		
+		System.out.println(cate2.catAgeReturn());
+
 	}
 
 }

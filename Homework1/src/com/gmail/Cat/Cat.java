@@ -1,4 +1,4 @@
-package com.gmail.borserb;
+package com.gmail.Cat;
 
 public class Cat {
 	private String name;
@@ -72,6 +72,12 @@ public class Cat {
 		age = 2018 - year;
 
 	}
+	
+	public int catAgeReturn() {
+	return	 2018 - year;
+
+	}
+	
 
 	@Override
 	public String toString() {
